@@ -48,15 +48,11 @@ function verificaStatusBarbearia() {
 }
 
 function retornaTodosCortes() {
-    for(let i = 0; i < barbearia.cortes.length; i++){
         return barbearia.cortes
-    }
 }
 
 function retornaTodasBarbas() {
-    for(let i = 0; i < barbearia.barbas.length; i++){
         return barbearia.barbas;
-    }
 }
 
 function criaPedido(nomeCliente, corteId, barbaId) {
